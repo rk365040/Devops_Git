@@ -1,0 +1,59 @@
+day1-
+---------------
+create repo in github
+
+clone the repo to your local
+
+git clone url
+
+move to inside repo 
+
+cretae file
+
+move the filefrom untsaging to staging
+
+git add filenmae
+
+commit the filefrom staging to local repo
+
+git commit-m "msg"
+
+push the chnagesfrom local to emote repo
+
+git push
+
+
+git status-- it will displaoyt status of the repo
+
+git log -- it will display log infirmation
+
+day2:
+-----------
+
+git init -- it will intiaize empty folder as a repository
+
+git remote add origin <url> -- to add remote url to local rep
+
+git push -u origin <branchname> -- push specific branch to gitbub
+
+git push --all -- push all branches to github
+
+git config --list -- it will configurations list
+
+git config --global "user.name" <name> -- it will add your name to git config
+
+git config --global "uer.email" <mail> -- it will add your mail to git configuraton
+
+git log --onelone - it wil display shortname of yourcomit/sha code
+
+git branch -- it will display the list of branches in local only
+
+git branch -a -- it will display the listof branches in local and remote
+
+git branch <branchename> -- it will create new branch
+
+git checkout <branchname> -- you can switch to another branch
+
+git merge <branch> -- it will merge the branches
+
+
